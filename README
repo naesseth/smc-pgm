@@ -1,0 +1,20 @@
+# README #
+
+## Sequential Monte Carlo for Graphical Models ##
+
+* Implementations from the paper "Sequential Monte Carlo for Graphical Models", Naesseth, Lindsten and Schön (2014)
+
+### Classical XY model ###
+
+* Our method SMC for PGM is implemented in "xymodel.py" and "helpfunctions.py", example for running the code is available in the iPython Notebook file "runSMC_xymodel.ipynb". The method is profiled against AIS and ASIR, implemented in MATLAB/MEX. Example for running these algorithms are available in "run_xymodel.m".
+
+### LDA evaluation ###
+
+* The algorithms follow the implementation structure and uses the data found in Wallach et. al., "Evaluation methods for topic models", ICML 2009.
+
+### Gaussian MRF ###
+
+* All algorithms are run from terminal and tuning/experiment parameters are set in the files, python [FILENAME]
+
+### Contact ###
+* christian.a.naesseth@liu.se
